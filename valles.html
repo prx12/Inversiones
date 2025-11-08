@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inversiones Oliver Mesa R. - Productos de los Valles Peruanos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <div class="logo-icon rocoto-icon">
+                    <!-- El ícono de rocoto se muestra mediante el pseudo-elemento -->
+                </div>
+                INVERSIONES <span>OLIVER MESA R.</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#productos">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#valles">Nuestros Valles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mayorista">Venta al Mayor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Pedidos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center" id="inicio">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-4">Productos Agrícolas de Primera Calidad de los Valles Peruanos</h1>
+            <p class="lead mb-4">Especialistas en la venta de Rocoto, pimiento, ají limo, pimentón, caigua, kion y palta.<br>Productos frescos desde los valles de Oxapampa, San Ramón, Pichanaki, Raymondi, Huánuco y Paucartambo.</p>
+            <div class="delivery-badge d-inline-block mb-4">
+                <i class="bi bi-lightning-charge-fill"></i> ENTREGA RÁPIDA 24-48 HORAS
+            </div>
+            <br>
+            <a href="#productos" class="btn btn-primary btn-lg me-3">Ver Productos</a>
+            <a href="#contacto" class="btn btn-warning btn-lg">Hacer Pedido</a>
+        </div>
+    </section>
+
+    <!-- Valles Section -->
+    <section id="valles" class="py-5 valleys-section">
+        <div class="container">
+            <h2 class="text-center section-title text-white">Nuestros Valles Productores</h2>
+            <p class="text-center lead mb-5">Trabajamos directamente con agricultores de los valles más fértiles del Perú</p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="valley-card text-center">
+                        <i class="bi bi-geo-alt-fill display-4 mb-3"></i>
+                        <h4>Oxapampa</h4>
+                        <p>Valle selvático que produce rocoto y pimientos de excelente sabor y calidad</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="valley-card text-center">
+                        <i class="bi bi-droplet-fill display-4 mb-3"></i>
+                        <h4>San Ramón</h4>
+                        <p>Famoso por su producción de ají limo y pimentón de intenso aroma</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="valley-card text-center">
+                        <i class="bi bi-sun-fill display-4 mb-3"></i>
+                        <h4>Pichanaki</h4>
+                        <p>Tierras fértiles ideales para el cultivo de caigua y kion de primera calidad</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="valley-card text-center">
+                        <i class="bi bi-tree-fill display-4 mb-3"></i>
+                        <h4>Raymondi</h4>
+                        <p>Microclima perfecto para paltas Hass cremosas y de excelente textura</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="valley-card text-center">
+                        <i class="bi bi-cloud-sun-fill display-4 mb-3"></i>
+                        <h4>Huánuco</h4>
+                        <p>Región andina que produce variedades únicas de rocoto y pimentón</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="valley-card text-center">
+                        <i class="bi bi-flower1 display-4 mb-3"></i>
+                        <h4>Paucartambo</h4>
+                        <p>Valle alto con producción orgánica de caigua y hierbas aromáticas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="productos" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title">Nuestros Productos de los Valles Peruanos</h2>
+            <div class="row g-4">
+                <!-- Rocoto -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card product-card">
+                        <span class="badge bg-danger category-badge">Picante</span>
+                        <img src="imagenes/rocoto.jpg" class="card-img-top product-img" alt="Rocoto Peruano">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Rocoto Peruano <span class="quantity-badge">Mayor/Menor</span></h5>
+                            <div class="mb-2">
+                                <span class="valley-badge">Oxapampa</span>
+                                <span class="valley-badge">Huánuco</span>
+                            </div>
+                            <p class="card-text flex-grow-1">Rocoto fresco y picante de primera calidad desde los valles de Oxapampa y Huánuco.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price-tag">S/ 15.00 kg</div>
+                                <small class="text-muted">Precio x mayor desde S/ 12.00</small>
+                            </div>
+                            <a href="#contacto" class="btn btn-primary mt-3">Solicitar Pedido</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pimiento -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card product-card">
+                        <span class="badge bg-success category-badge">Dulce</span>
+                        <img src="imagenes/pimenton.png" class="card-img-top product-img" alt="Pimiento Morrón">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Pimiento Morrón <span class="quantity-badge">Mayor/Menor</span></h5>
+                            <div class="mb-2">
+                                <span class="valley-badge">Oxapampa</span>
+                                <span class="valley-badge">San Ramón</span>
+                            </div>
+                            <p class="card-text flex-grow-1">Pimientos rojos, amarillos y verdes de excelente calidad desde los valles centrales.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price-tag">S/ 12.00 kg</div>
+                                <small class="text-muted">Precio x mayor desde S/ 9.00</small>
+                            </div>
+                            <a href="#contacto" class="btn btn-primary mt-3">Solicitar Pedido</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ají Limo -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card product-card">
+                        <span class="badge bg-warning category-badge">Aromático</span>
+                        <img src="imagenes/aji_limo.jpg" class="card-img-top product-img" alt="Ají Limo">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Ají Limo <span class="quantity-badge">Mayor/Menor</span></h5>
+                            <div class="mb-2">
+                                <span class="valley-badge">San Ramón</span>
+                                <span class="valley-badge">Pichanaki</span>
+                            </div>
+                            <p class="card-text flex-grow-1">Ají limo fresco de primera, esencial para el cebiche. Cultivado en San Ramón.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price-tag">S/ 18.00 kg</div>
+                                <small class="text-muted">Precio x mayor desde S/ 14.00</small>
+                            </div>
+                            <a href="#contacto" class="btn btn-primary mt-3">Solicitar Pedido</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pimentón -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card product-card">
+                        <span class="badge bg-info category-badge">Condimento</span>
+                        <img src="imagenes/aji_amarillo.jpg" class="card-img-top product-img" alt="Pimentón">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Aji amarillo <span class="quantity-badge">Mayor/Menor</span></h5>
+                            <div class="mb-2">
+                                <span class="valley-badge">San Ramón</span>
+                                <span class="valley-badge">Huánuco</span>
+                            </div>
+                            <p class="card-text flex-grow-1">Pimentón molido de alta calidad desde los valles de San Ramón y Huánuco.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price-tag">S/ 25.00 kg</div>
+                                <small class="text-muted">Precio x mayor desde S/ 20.00</small>
+                            </div>
+                            <a href="#contacto" class="btn btn-primary mt-3">Solicitar Pedido</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Caigua -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card product-card">
+                        <span class="badge bg-success category-badge">Saludable</span>
+                        <img src="imagenes/caigua.jpg" class="card-img-top product-img" alt="Caigua">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Caigua <span class="quantity-badge">Mayor/Menor</span></h5>
+                            <div class="mb-2">
+                                <span class="valley-badge">Pichanaki</span>
+                                <span class="valley-badge">Paucartambo</span>
+                            </div>
+                            <p class="card-text flex-grow-1">Caigua fresca andina con beneficios para la salud desde Pichanaki y Paucartambo.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price-tag">S/ 10.00 kg</div>
+                                <small class="text-muted">Precio x mayor desde S/ 7.00</small>
+                            </div>
+                            <a href="#contacto" class="btn btn-primary mt-3">Solicitar Pedido</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Kion -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card product-card">
+                        <span class="badge bg-warning category-badge">Medicinal</span>
+                        <img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="card-img-top product-img" alt="Kion">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Kion (Jengibre) <span class="quantity-badge">Mayor/Menor</span></h5>
+                            <div class="mb-2">
+                                <span class="valley-badge">Pichanaki</span>
+                                <span class="valley-badge">Raymondi</span>
+                            </div>
+                            <p class="card-text flex-grow-1">Kion fresco de primera calidad con propiedades medicinales desde Pichanaki.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price-tag">S/ 20.00 kg</div>
+                                <small class="text-muted">Precio x mayor desde S/ 16.00</small>
+                            </div>
+                            <a href="#contacto" class="btn btn-primary mt-3">Solicitar Pedido</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Palta -->
+                <div class="col-md-6 col-lg-4 mx-auto">
+                    <div class="card product-card">
+                        <span class="badge bg-success category-badge">Cremoso</span>
+                        <img src="imagenes/palta.jpg" class="card-img-top product-img" alt="Palta">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Palta Hass <span class="quantity-badge">Mayor/Menor</span></h5>
+                            <div class="mb-2">
+                                <span class="valley-badge">Raymondi</span>
+                                <span class="valley-badge">Paucartambo</span>
+                            </div>
+                            <p class="card-text flex-grow-1">Paltas Hass premium desde los valles de Raymondi y Paucartambo.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price-tag">S/ 18.00 kg</div>
+                                <small class="text-muted">Precio x mayor desde S/ 14.00</small>
+                            </div>
+                            <a href="#contacto" class="btn btn-primary mt-3">Solicitar Pedido</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wholesale Section -->
+    <section id="mayorista" class="py-5 wholesale-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h2 class="mb-4">Venta al Por Mayor</h2>
+                    <p class="lead mb-4">¿Eres restaurante, mercado o distribuidor? Ofrecemos precios especiales para pedidos al por mayor directamente desde los valles productores.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5><i class="bi bi-check-circle"></i> Precios de valle</h5>
+                            <h5><i class="bi bi-check-circle"></i> Descuentos por volumen</h5>
+                        </div>
+                        <div class="col-md-6">
+                            <h5><i class="bi bi-check-circle"></i> Entrega programada</h5>
+                            <h5><i class="bi bi-check-circle"></i> Facturación</h5>
+                        </div>
+                    </div>
+                    <a href="#contacto" class="btn btn-warning btn-lg mt-4">Solicitar Cotización Mayorista</a>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="bi bi-truck display-1"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center section-title">¿Por Qué Elegirnos?</h2>
+            <div class="row g-4">
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon">
+                        <i class="bi bi-geo-alt"></i>
+                    </div>
+                    <h5>Origen Certificado</h5>
+                    <p class="small">Productos directamente de los valles de Oxapampa, San Ramón, Pichanaki, Raymondi, Huánuco y Paucartambo</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon">
+                        <i class="bi bi-speedometer2"></i>
+                    </div>
+                    <h5>Entrega Rápida</h5>
+                    <p class="small">Despachamos en 24-48 horas para garantizar la máxima frescura de nuestros productos</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon">
+                        <i class="bi bi-award"></i>
+                    </div>
+                    <h5>Primera Calidad</h5>
+                    <p class="small">Seleccionamos solo los mejores productos bajo estrictos estándares de calidad</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title">Solicita tu Pedido</h2>
+            <p class="text-center lead mb-5">¿Listo para ordenar productos frescos de nuestros valles? Completa el formulario</p>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h3 class="mb-4">Información de Contacto</h3>
+                    <div class="contact-info d-flex align-items-center mb-3">
+                        <i class="bi bi-geo-alt"></i>
+                        <div>
+                            <h5>Zona de Atención</h5>
+                            <p class="mb-0">Oxapampa, San Ramón, Pichanaki, Raymondi, Huánuco, Paucartambo y alrededores</p>
+                        </div>
+                    </div>
+                    <div class="contact-info d-flex align-items-center mb-3">
+                        <i class="bi bi-telephone"></i>
+                        <div>
+                            <h5>Teléfono</h5>
+                            <p class="mb-0">+51 987 654 321</p>
+                        </div>
+                    </div>
+                    <div class="contact-info d-flex align-items-center mb-3">
+                        <i class="bi bi-whatsapp"></i>
+                        <div>
+                            <h5>WhatsApp</h5>
+                            <p class="mb-0">+51 987 654 321</p>
+                        </div>
+                    </div>
+                    <div class="contact-info d-flex align-items-center mb-3">
+                        <i class="bi bi-envelope"></i>
+                        <div>
+                            <h5>Email</h5>
+                            <p class="mb-0">ventas@olivermesar.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-info d-flex align-items-center mb-3">
+                        <i class="bi bi-clock"></i>
+                        <div>
+                            <h5>Horario de Atención</h5>
+                            <p class="mb-0">Lun - Vie: 6:00 AM - 6:00 PM</p>
+                            <p class="mb-0">Sáb: 6:00 AM - 1:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Formulario de Pedido</h3>
+                    <form id="pedidoForm">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Nombre completo *</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Teléfono *</label>
+                                <input type="tel" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Valle/Localidad *</label>
+                            <select class="form-select" required>
+                                <option value="" selected disabled>Seleccione su valle</option>
+                                <option value="oxapampa">Oxapampa</option>
+                                <option value="san-ramon">San Ramón</option>
+                                <option value="pichanaki">Pichanaki</option>
+                                <option value="raymondi">Raymondi</option>
+                                <option value="huanuco">Huánuco</option>
+                                <option value="paucartambo">Paucartambo</option>
+                                <option value="otro">Otra localidad</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Tipo de Cliente *</label>
+                            <select class="form-select" required>
+                                <option value="" selected disabled>Seleccione una opción</option>
+                                <option value="menor">Cliente al por Menor</option>
+                                <option value="mayor">Cliente al por Mayor</option>
+                                <option value="restaurante">Restaurante</option>
+                                <option value="distribuidor">Distribuidor</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Productos de interés *</label>
+                            <select class="form-select" required>
+                                <option value="" selected disabled>Seleccione productos</option>
+                                <option value="rocoto">Rocoto</option>
+                                <option value="pimiento">Pimiento</option>
+                                <option value="aji-limo">Ají Limo</option>
+                                <option value="pimenton">Pimentón</option>
+                                <option value="caigua">Caigua</option>
+                                <option value="kion">Kion</option>
+                                <option value="palta">Palta</option>
+                                <option value="varios">Varios productos</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Cantidad aproximada (kg) *</label>
+                            <input type="number" class="form-control" placeholder="Ej: 10" min="1" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Mensaje adicional</label>
+                            <textarea class="form-control" rows="4" placeholder="Especificaciones especiales, dirección exacta de entrega, etc."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 btn-lg">Enviar Solicitud de Pedido</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h4 class="mb-3">Inversiones Oliver Mesa R.</h4>
+                    <p>Productos agrícolas de primera calidad desde los valles de Oxapampa, San Ramón, Pichanaki, Raymondi, Huánuco y Paucartambo.</p>
+                    <div class="delivery-badge d-inline-block mb-3">
+                        <i class="bi bi-lightning-charge-fill"></i> ENTREGA RÁPIDA
+                    </div>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <h5 class="mb-3">Enlaces</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#inicio" class="text-white text-decoration-none">Inicio</a></li>
+                        <li class="mb-2"><a href="#productos" class="text-white text-decoration-none">Productos</a></li>
+                        <li class="mb-2"><a href="#valles" class="text-white text-decoration-none">Nuestros Valles</a></li>
+                        <li class="mb-2"><a href="#mayorista" class="text-white text-decoration-none">Venta al Mayor</a></li>
+                        <li class="mb-2"><a href="#contacto" class="text-white text-decoration-none">Pedidos</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="mb-3">Productos</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Rocoto</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Pimiento</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Ají Limo</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Pimentón</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Caigua</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Kion</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Palta</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="mb-3">Valles de Producción</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><span class="text-white">Oxapampa</span></li>
+                        <li class="mb-2"><span class="text-white">San Ramón</span></li>
+                        <li class="mb-2"><span class="text-white">Pichanaki</span></li>
+                        <li class="mb-2"><span class="text-white">Raymondi</span></li>
+                        <li class="mb-2"><span class="text-white">Huánuco</span></li>
+                        <li class="mb-2"><span class="text-white">Paucartambo</span></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Inversiones Oliver Mesa R. - Productos de los Valles Peruanos. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form submission
+        document.getElementById('pedidoForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('¡Gracias por su solicitud de pedido! Nos pondremos en contacto dentro de las próximas 2 horas para confirmar los detalles y coordinar la entrega.');
+            this.reset();
+        });
+
+        // Add animation to product cards on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe product cards
+        document.querySelectorAll('.product-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+
+        // Observe valley cards
+        document.querySelectorAll('.valley-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>  bv
